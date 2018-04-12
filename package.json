@@ -1,15 +1,17 @@
 {
   "name": "vue-chatbox",
-  "version": "0.0.1",
-  "description": "Chatbox UI",
-  "main": "src/index.js",
+  "version": "0.0.2",
+  "description": "A Vue.JS component that appends a chatbox window into your page.",
+  "main": "dist/vue-chatbox.js",
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p"
   },
+  "author": "sriramveeraghanta",
+  "license": "MIT",
   "repository": {
-  	"type": "git",
-  	"url": "git+https://github.com/sriramveeraghanta/vue-chatbox.git"
+    "type": "git",
+    "url": "git+https://github.com/sriramveeraghanta/vue-chatbox.git"
   },
   "keywords": [
     "vue",
@@ -18,10 +20,27 @@
     "chat UI",
     "chat screen"
   ],
-  "author": "sriramveeraghanta",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sriramveeraghanta/vue-chatbox/issues"
   },
   "homepage": "https://github.com/sriramveeraghanta/vue-chatbox#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "rimraf": "^2.6.2",
+    "vue": "^2.5.16",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^14.2.2",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-merge": "^4.1.2"
+  }
 }
