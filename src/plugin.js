@@ -1,6 +1,6 @@
 import Chatbox from './index.js';
 
-module.exports = {
+export default {
   install: function (Vue, options) {
     Vue.component('vue-chatbox', Chatbox);
   }

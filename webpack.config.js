@@ -48,17 +48,17 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'vue-clock.min.js',
+      filename: 'vue-chatbox.min.js',
       libraryTarget: 'window',
-      library: 'VueClock',
+      library: 'VueChatbox',
     }
   }),
   merge(config, {
     entry: path.resolve(__dirname + '/src/index.js'),
     output: {
-      filename: 'vue-clock.js',
+      filename: 'vue-chatbox.js',
       libraryTarget: 'umd',
-      library: 'vue-clock',
+      library: 'vue-chatbox',
       umdNamedDefine: true
     }
   })
