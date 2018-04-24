@@ -1,11 +1,11 @@
 {
   "name": "vue-chatbox",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "A Vue.JS component that appends a chatbox window into your page.",
   "main": "dist/vue-chatbox.js",
   "scripts": {
     "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
   "author": "sriramveeraghanta",
   "license": "MIT",
@@ -24,7 +24,9 @@
     "url": "https://github.com/sriramveeraghanta/vue-chatbox/issues"
   },
   "homepage": "https://github.com/sriramveeraghanta/vue-chatbox#readme",
-  "dependencies": {},
+  "dependencies": {
+    "vue-clock-simple": "^1.0.4"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",

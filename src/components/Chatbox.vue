@@ -4,7 +4,7 @@
       {{Title}}
     </div>
     <div class="chatbox-body">
-      
+      THis is chatbox
     </div>
     <div class="chatbox-footer">
       <input type="text" autocomplete="off">
